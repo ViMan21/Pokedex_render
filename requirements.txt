@@ -2,9 +2,10 @@ aiofiles==0.4.0
 aiohttp==3.5.4
 asyncio==3.4.3
 fastai==1.0.42
-torch==1.3.0+cpu
-torch-nightly==1.2.0.dev20190807+cpu
-torchvision==0.4.1
+-f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
+torch
+torch-nightly
+torchvision
 numpy==1.15.4
 starlette==0.12.0
 uvicorn==0.7.1
